@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sing(song,callback) {
+            document.write(`toi dang hat theo bai hat ${song}`);
+            
+            callback();
+        }
+        function dance() {
+            document.write(`<br> toi dang nhay theo bai hat`);
+        }
+        function sway() {
+            document.write(`<br> toi dang xoay theo bai hat`);
+        }
+        sing('viet nam oi',sway);
+    </script>
+</body>
+</html>
